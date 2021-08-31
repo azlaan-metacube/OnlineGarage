@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Garage Portal Config">f1f093fd07c23010fff7f7fc7c1ed0ec</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Additional Details">06f0d3fd15c230103a7ea674a6241614</macroponent>
+        <macroponent_config>{
+  "sysId" : "@context.props.sysId",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Additional Details Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page(task)">82f0d3fd06c2301099f36402d871b009</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Additional Details">caf0d3fd33c2301047b53f9494a2680b</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-08-19 11:19:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cef0d3fd6ec23010d69e3aaab1397715</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional Details Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_screen_cef0d3fd6ec23010d69e3aaab1397715</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-08-19 11:19:56</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=cef0d3fd6ec23010d69e3aaab1397715"/>
+</record_update>

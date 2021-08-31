@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Garage Portal Config">f1f093fd07c23010fff7f7fc7c1ed0ec</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Order success">4ef0d3fdb2c23010c45140fa5e82340c</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Order success Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Order success">4af0d3fd8ec2301018b4a1f3a8c2540b</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-08-19 11:19:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86f0d3fd08c23010a8bb4ded82121e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order success Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_screen_86f0d3fd08c23010a8bb4ded82121e16</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-08-19 11:19:53</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=86f0d3fd08c23010a8bb4ded82121e16"/>
+</record_update>

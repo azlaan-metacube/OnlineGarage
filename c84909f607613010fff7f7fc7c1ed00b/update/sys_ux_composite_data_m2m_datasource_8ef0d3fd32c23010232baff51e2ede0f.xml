@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">42f0d3fd8cc230101c48f11ef7e27c0f</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">caf0d3fde3c23010a2433ed0c6fb710f</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-08-19 11:19:57</sys_created_on>
+        <sys_id>8ef0d3fd32c23010232baff51e2ede0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_8ef0d3fd32c23010232baff51e2ede0f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-08-19 11:19:57</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

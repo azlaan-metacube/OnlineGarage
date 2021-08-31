@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Garage Users">1108d7540712f010fff7f7fc7c1ed048</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-27 06:15:29</sys_created_on>
+        <sys_id>9d08d7540712f010fff7f7fc7c1ed051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Garage Users.Registration form available for Public</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_9d08d7540712f010fff7f7fc7c1ed051</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-27 06:15:29</sys_updated_on>
+        <user_criteria display_value="Registration form available for Public">2d1bf05373320010fdbd04fbc4f6a783</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

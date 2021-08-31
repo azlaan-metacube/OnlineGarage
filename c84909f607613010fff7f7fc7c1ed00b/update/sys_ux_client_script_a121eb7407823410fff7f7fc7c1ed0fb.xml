@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="home">9921637407823410fff7f7fc7c1ed080</macroponent>
+        <name>logout</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+    console.log("Logout Trigger Called");
+     helpers.navigate.to('logout_success',null,null,true);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-16 09:56:37</sys_created_on>
+        <sys_id>a121eb7407823410fff7f7fc7c1ed0fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>logout</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_client_script_a121eb7407823410fff7f7fc7c1ed0fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 10:42:18</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

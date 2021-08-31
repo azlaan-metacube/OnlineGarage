@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">c2f0d3fd81c23010f47506da14c72309</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">c6f0d3fdd1c23010013a051d49a16119</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-08-19 11:19:55</sys_created_on>
+        <sys_id>cef0d3fd3cc230107aee774a633c1108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_cef0d3fd3cc230107aee774a633c1108</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-08-19 11:19:55</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Service Info">f2bbacf70761b010fff7f7fc7c1ed021</macroponent>
+        <name>Accept Request</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+   // var gForm = api.data.service_request.nowRecordFormBlob.gForm;
+  //api.data.service_request.nowRecordFormBlob.gForm.setValue('testtt','Yabadabadooooo')
+  //api.data.service_request.nowRecordFormBlob.gForm.save();
+  //console.log('Azlaan Khan');
+  //console.log('Data::: ', api.data);
+  //console.log('Form::: ', api.data.mechanic_assign.nowRecordFormBlob);
+  console.log('Azlaan Khan');
+  api.data.service_request.nowRecordFormBlob.gForm.setValue('testt','Yabadabadooooo')
+  api.data.service_request.nowRecordFormBlob.gForm.save();
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-04 11:34:59</sys_created_on>
+        <sys_id>d594464907f17010fff7f7fc7c1ed0d2</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Accept Request</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_client_script_d594464907f17010fff7f7fc7c1ed0d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-16 06:41:22</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

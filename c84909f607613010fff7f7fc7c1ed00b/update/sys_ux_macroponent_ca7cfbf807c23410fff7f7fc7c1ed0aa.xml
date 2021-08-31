@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "confirmation_message_1",
+  "elementLabel" : "Confirmation message 1",
+  "propertyValues" : {
+    "icon" : {
+      "type" : "JSON_LITERAL",
+      "value" : "circle-check-outline"
+    },
+    "iconStatus" : {
+      "type" : "JSON_LITERAL",
+      "value" : "info"
+    },
+    "header" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Successfully Logged Out",
+        "comment" : ""
+      }
+    },
+    "headerLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "2"
+    },
+    "headerStyle" : {
+      "type" : "JSON_LITERAL",
+      "value" : "header-primary"
+    },
+    "caption" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Thanks for Visiting",
+        "comment" : ""
+      }
+    },
+    "moreInfo" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "resolution" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    },
+    "primaryActionLabel" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Login",
+        "comment" : ""
+      }
+    },
+    "secondaryActionLabel" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "cksfxfsjjbbaaaainddbiieeaiiiiejktw",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#PRIMARY_CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#PRIMARY_CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "f0d2785907463010fff7f7fc7c1ed070"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "cksfxfsjjbbaaaaioddbiieeyolejjnggz",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "71f1d86e8da97cc031fc30e03896cbe1",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
+    "styles" : null,
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "flex"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Logout</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "Login",
+  "comment" : ""
+}, {
+  "message" : "Successfully Logged Out",
+  "comment" : ""
+}, {
+  "message" : "Thanks for Visiting",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-16 11:55:59</sys_created_on>
+        <sys_id>ca7cfbf807c23410fff7f7fc7c1ed0aa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Logout</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_macroponent_ca7cfbf807c23410fff7f7fc7c1ed0aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 10:32:29</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

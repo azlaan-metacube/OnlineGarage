@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="reject">5ccbc97a1d6130100113f84b7f9ace5e</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">dccbc97a4461301021c96c02a523aa66</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-07-28 07:40:24</sys_created_on>
+        <sys_id>50cbc97a476130109b689a5641b1f56a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_50cbc97a476130109b689a5641b1f56a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-07-28 07:40:24</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Online Garage">48cbc97a07613010fff7f7fc7c1ed034</page>
+        <required_translations>[ {
+  "message" : "Configure",
+  "comment" : ""
+}, {
+  "message" : "Logout",
+  "comment" : ""
+}, {
+  "message" : "Settings",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+} ]</required_translations>
+        <route display_value="home">7a614c4c07827010fff7f7fc7c1ed0d0</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-07-28 07:40:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>10cbc97a7e6130104fef54b9687a6c6a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_page_property_10cbc97a7e6130104fef54b9687a6c6a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-19 12:26:30</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_625304_online_0.48cbc97a07613010fff7f7fc7c1ed034.route.chrome_header.7a614c4c07827010fff7f7fc7c1ed0d0</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+      "searchEnabled": true,&#13;
+       "userPrefsEnabled":true,&#13;
+       "currentScreenLinkConfiguration": {&#13;
+            "roles": ["admin"],&#13;
+            "position": 250&#13;
+        },&#13;
+       "globalTools":{&#13;
+          "collapsingMenuId":0,&#13;
+          "primaryItems":[&#13;
+             {&#13;
+                "label":"UserMenu",&#13;
+                "icon":"user",&#13;
+                "type":"menu",&#13;
+                "primaryDisplay":"icon",&#13;
+                "value":{&#13;
+                   "children":[&#13;
+                      {&#13;
+                         "label": {&#13;
+                          "translatable": true,&#13;
+                          "message":"Settings"&#13;
+                        },&#13;
+                         "position":100,&#13;
+                         "type":"navigation",&#13;
+                         "value":{&#13;
+                            "type":"route",&#13;
+                            "value":{&#13;
+                               "route":"settings",&#13;
+                               "fields":{&#13;
+                                  &#13;
+                               }&#13;
+                            }&#13;
+                         }&#13;
+                      },&#13;
+                      {                   &#13;
+                        "condition": {&#13;
+                          "roles": ["admin", "ui_builder_admin"]&#13;
+                        },&#13;
+                         "label":{&#13;
+                            "translatable": true,&#13;
+                            "message":"Configure"&#13;
+                          },&#13;
+                         "type":"navigation",&#13;
+                         "position":200,&#13;
+                         "primaryDisplay":"none",&#13;
+                         "value":{&#13;
+                            "type":"external",&#13;
+                            "opensWindow":"true",&#13;
+                            "value":{&#13;
+                               "href":"/nav_to.do?uri=/sys_ux_app_config.do?sys_id=f1f093fd07c23010fff7f7fc7c1ed0ec"&#13;
+                            }&#13;
+                         }&#13;
+                      },&#13;
+                      {&#13;
+                         "label": {&#13;
+                            "translatable": true,&#13;
+                            "message":"Logout"&#13;
+                          },&#13;
+                         "position":500,&#13;
+                         "type":"navigation",&#13;
+                                "value":{&#13;
+                                  "type": "AUTH_ROUTE_BINDING",&#13;
+                                        "binding": {&#13;
+                                            "address": ["logout"],&#13;
+                                            "params": {"reload": true},&#13;
+                                            "default": "/logout.do"&#13;
+                                }&#13;
+                        }&#13;
+                      }&#13;
+                   ]&#13;
+                }&#13;
+             }&#13;
+          ],&#13;
+          "secondaryItems":[]&#13;
+       }&#13;
+    },&#13;
+    "publicPage":{&#13;
+      "menuEnabled": true,&#13;
+      "logoRoute": {&#13;
+        "type": "route",&#13;
+        "value": {&#13;
+          "route": "landing",&#13;
+          "fields":{}&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=10cbc97a7e6130104fef54b9687a6c6a"/>
+</record_update>

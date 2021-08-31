@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>employeeView</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 06:27:54</sys_created_on>
+        <sys_id>571b26dc07fdf010fff7f7fc7c1ed05e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>employeeView</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ui_view_571b26dc07fdf010fff7f7fc7c1ed05e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 06:27:54</sys_updated_on>
+        <title>employeeView</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

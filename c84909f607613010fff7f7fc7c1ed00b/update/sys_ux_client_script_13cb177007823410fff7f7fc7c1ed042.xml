@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Service Info">4bcb177007823410fff7f7fc7c1ed037</macroponent>
+        <name>Save Record</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+
+console.log('Hello .. ');
+    api.data.service_request.nowRecordFormBlob.gForm.save();
+    helpers.navigate.to('order_success',null,null,true);
+    //helpers.navigate.to('home',null,null,true);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-16 09:33:15</sys_created_on>
+        <sys_id>13cb177007823410fff7f7fc7c1ed042</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Save Record</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_client_script_13cb177007823410fff7f7fc7c1ed042</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 10:24:23</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

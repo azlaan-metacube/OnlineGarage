@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "typeText" : "Test",
+  "type" : "1"
+}</macroponent_config>
+        <screen display_value="Mechanic Services default">ab17235c07b13410fff7f7fc7c1ed052</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 10:50:25</sys_created_on>
+        <sys_id>7837ef9c07b13410fff7f7fc7c1ed060</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_7837ef9c07b13410fff7f7fc7c1ed060</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-10 08:00:47</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

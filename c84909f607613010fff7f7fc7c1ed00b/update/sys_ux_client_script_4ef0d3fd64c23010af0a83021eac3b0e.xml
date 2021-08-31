@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Catalog Item Page">06f0d3fdd1c230101549d2a35548f81b</macroponent>
+        <name>Set Related item sysId</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+    api.setState("relatedItemSysId", event.payload.sysId);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-08-19 11:19:56</sys_created_on>
+        <sys_id>4ef0d3fd64c23010af0a83021eac3b0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Related item sysId</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_client_script_4ef0d3fd64c23010af0a83021eac3b0e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-08-19 11:19:56</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

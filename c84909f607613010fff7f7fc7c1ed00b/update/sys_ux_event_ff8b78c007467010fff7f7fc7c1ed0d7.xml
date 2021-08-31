@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>SESSION_LOGGED_OUT_RELAY_1540ac4407067010fff7f7fc7c1ed0a9</event_name>
+        <interfaces/>
+        <label>Session Logged out Relay (home mechanic)</label>
+        <props>[{"name":"callbackFn","fieldType":"string","interfaceApiName":null,"label":"Callback function"}]</props>
+        <required_translations>[ {
+  "message" : "Callback function",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 13:57:42</sys_created_on>
+        <sys_id>ff8b78c007467010fff7f7fc7c1ed0d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Session Logged out Relay (home mechanic)</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_event_ff8b78c007467010fff7f7fc7c1ed0d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 13:57:42</sys_updated_on>
+    </sys_ux_event>
+</record_update>
