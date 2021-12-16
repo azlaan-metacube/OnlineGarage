@@ -19,19 +19,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>d7ad006b07423010fff7f7fc7c1ed098</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>chrome_header</sys_name>
         <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
         <sys_update_name>sys_ux_page_property_d7ad006b07423010fff7f7fc7c1ed098</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-31 11:42:57</sys_updated_on>
+        <sys_updated_on>2021-12-16 08:59:25</sys_updated_on>
         <type>json</type>
         <unique_name>x_625304_online_0.48cbc97a07613010fff7f7fc7c1ed034.root.chrome_header</unique_name>
         <value>{&#13;
   "privatePage": {&#13;
-    "searchEnabled": true,&#13;
+&#13;
     "userPrefsEnabled": true,&#13;
     "currentScreenLinkConfiguration": {&#13;
       "roles": [&#13;
