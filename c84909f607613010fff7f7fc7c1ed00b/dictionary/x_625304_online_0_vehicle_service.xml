@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Vehicle Service" max_length="40" name="x_625304_online_0_vehicle_service" sizeclass="3" type="collection">
+        <element label="Assigned Mechanic" max_length="40" name="assigned_mechanic" reference="sys_user" reference_qual="roles=x_625304_online_0.Mechanic^EQ" reference_qual_condition="roles=x_625304_online_0.Mechanic^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;    var currency = 0.0;&#13;&#10;&#13;&#10;    var que = new GlideRecord('x_625304_online_0_services');&#13;&#10;    que.addQuery('sys_id', 'IN', current.services);&#13;&#10;    que.query();&#13;&#10;&#13;&#10;    while (que.next()) {&#13;&#10;        currency += parseFloat(que.cost);&#13;&#10;    }&#13;&#10;&#13;&#10;    return currency; // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Cost" max_length="20" name="cost" read_only="true" type="currency" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;if(current == null || current == 'empty'){&#13;&#10;&#9;&#9;return gs.getUser().getID();  // return the calculated value&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;})(current);" label="Agent" max_length="40" name="customer" reference="sys_user" reference_qual="roles=x_625304_online_0.Customer^EQ" reference_qual_condition="roles=x_625304_online_0.Customer^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;})(current);" display="true" label="Description" max_length="400" name="description" type="string"/>
+        <element label="Mechanic Notes" max_length="400" name="mechanic_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#13;&#10;    var deleteItemQue = new GlideRecord('x_625304_online_0_customer_items');&#13;&#10;    deleteItemQue.addQuery('sys_id', 'IN', current.ordered_items);&#13;&#10;    deleteItemQue.query();&#13;&#10;    while (deleteItemQue.next()) {&#13;&#10;        deleteItemQue.deleteRecord();&#13;&#10;    }&#13;&#10;&#13;&#10;&#13;&#10;    var ordersItems = '';&#13;&#10;&#13;&#10;    var que = new GlideRecord('x_625304_online_0_services');&#13;&#10;    que.addQuery('sys_id', 'IN', current.services);&#13;&#10;    que.query();&#13;&#10;&#13;&#10;    while (que.next()) {&#13;&#10;        var itemQue = new GlideRecord('x_625304_online_0_customer_items');&#13;&#10;        itemQue.addQuery('vehicle_service', current.sys_id);&#13;&#10;        itemQue.addQuery('citem', que.sys_id);&#13;&#10;        itemQue.query();&#13;&#10;        if (itemQue.next()) {&#13;&#10;            itemQue.customer = current.customer;&#13;&#10;            itemQue.vehicle_service = current.sys_id;&#13;&#10;            itemQue.citem = que.sys_id;&#13;&#10;            itemQue.price = parseFloat(que.cost);&#13;&#10;            itemQue.name = que.service_name;&#13;&#10;            var sysId = itemQue.sys_id;&#13;&#10;            itemQue.update();&#13;&#10;            if (ordersItems.length === 0) {&#13;&#10;                ordersItems = sysId;&#13;&#10;            } else {&#13;&#10;                ordersItems = ordersItems + ',' + sysId;&#13;&#10;            }&#13;&#10;        } else {&#13;&#10;            var gr = new GlideRecord('x_625304_online_0_customer_items');&#13;&#10;            gr.initialize();&#13;&#10;            gr.customer = current.customer;&#13;&#10;            gr.vehicle_service = current.sys_id;&#13;&#10;            gr.citem = que.sys_id;&#13;&#10;            gr.price = parseFloat(que.cost);&#13;&#10;            gr.name = que.service_name;&#13;&#10;            var sysIdd = gr.insert();&#13;&#10;            if (ordersItems.length === 0) {&#13;&#10;                ordersItems = sysIdd;&#13;&#10;            } else {&#13;&#10;                ordersItems = ordersItems + ',' + sysIdd;&#13;&#10;            }&#13;&#10;        }&#13;&#10;&#13;&#10;    }&#13;&#10;&#13;&#10;&#13;&#10;    return ordersItems; // return the calculated value&#13;&#10;&#13;&#10;})(current);" dependent="sys_id" dependent_on_field="sys_id" label="Ordered Items" max_length="256" name="ordered_items" reference="x_625304_online_0_customer_items" type="glide_list" use_dependent_field="true" virtual="true"/>
+        <element choice="3" default="pending" label="Payment Status" max_length="40" name="payment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Payment Fail" value="payment_fail"/>
+                <element inactive_on_update="false" label="Pending" sequence="20" value="pending"/>
+                <element inactive_on_update="false" label="Done" sequence="30" value="done"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;console.log(current);&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Services" max_length="4000" name="services" reference="x_625304_online_0_services" type="glide_list">
+            <choice/>
+        </element>
+        <element choice="3" default="open" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="10" value="open"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="20" value="work_in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="30" value="completed"/>
+            </choice>
+        </element>
+        <element label="TestScr" max_length="255" name="testscr" type="string"/>
+        <element label="Vehicle Image" max_length="40" name="vehicle_image" type="user_image"/>
+        <element label="Vehicle No" max_length="40" name="vehicle_no" type="string"/>
+        <index name="index">
+            <element name="assigned_mechanic"/>
+        </index>
+        <index name="index2">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>

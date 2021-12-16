@@ -13,25 +13,30 @@
  */
 function handler({api, event, helpers, imports}) {
 
+    //helpers.modal.close('confirm_dialog');
+    //helpers.modal.open('loader');
     var currentUser = api.context.session.user;
     console.log("Loggedin User:: "+currentUser);
     //api.data.service_request.nowRecordFormBlob.gForm.setValue('customer',currentUser.sys_id,currentUser.fullName);
     //api.data.service_request.nowRecordFormBlob.gForm.setReadOnly('customer',true);
    api.data.service_request.nowRecordFormBlob.gForm.save();
+   helpers.modal.close('loader');
    helpers.navigate.to('order_success',null,null,true);
+   //helpers.modal.open("[component-id$='success_dialog']");
+   //helpers.modal.open('success_dialog');
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 07:54:13</sys_created_on>
         <sys_id>8dab96d107b13010fff7f7fc7c1ed04d</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Save Record</sys_name>
         <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
         <sys_update_name>sys_ux_client_script_8dab96d107b13010fff7f7fc7c1ed04d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-31 08:13:27</sys_updated_on>
+        <sys_updated_on>2021-09-01 14:31:36</sys_updated_on>
     </sys_ux_client_script>
 </record_update>

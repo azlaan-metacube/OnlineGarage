@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <condition table="x_625304_online_0_vehicle_service">assigned_mechanicISEMPTY^EQ<item endquery="false" field="assigned_mechanic" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Mechanic Assign Rule</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 05:11:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83982f8d07423010fff7f7fc7c1ed09b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mechanic Assign Rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sysrule_view_83982f8d07423010fff7f7fc7c1ed09b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 05:11:52</sys_updated_on>
+        <table>x_625304_online_0_vehicle_service</table>
+        <view>assignMechanic</view>
+    </sysrule_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</application>
+        <file_path/>
+        <instance_id>47ea7e8fdb302f008264f70fbf961991</instance_id>
+        <instance_name>dev71723</instance_name>
+        <name>sysrule_view_83982f8d07423010fff7f7fc7c1ed09b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysrule_view"&gt;&lt;sysrule_view action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition table="x_625304_online_0_vehicle_service"&gt;assigned_mechanicISEMPTY^EQ&lt;item endquery="false" field="assigned_mechanic" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;description/&gt;&lt;device_type&gt;browser&lt;/device_type&gt;&lt;match_conditions&gt;ALL&lt;/match_conditions&gt;&lt;name&gt;Mechanic Assign Rule&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;overrides_user_preference&gt;true&lt;/overrides_user_preference&gt;&lt;script&gt;&lt;![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysrule_view&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-17 05:11:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;83982f8d07423010fff7f7fc7c1ed09b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Mechanic Assign Rule&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Online Garage" source="x_625304_online_0"&gt;c84909f607613010fff7f7fc7c1ed00b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online Garage"&gt;c84909f607613010fff7f7fc7c1ed00b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysrule_view_83982f8d07423010fff7f7fc7c1ed09b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-17 05:11:52&lt;/sys_updated_on&gt;&lt;table&gt;x_625304_online_0_vehicle_service&lt;/table&gt;&lt;view&gt;assignMechanic&lt;/view&gt;&lt;/sysrule_view&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1501542480</payload_hash>
+        <record_name>Mechanic Assign Rule</record_name>
+        <reverted_from/>
+        <source>dc4909f607613010fff7f7fc7c1ed00d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 05:11:52</sys_created_on>
+        <sys_id>4499278d07423010fff7f7fc7c1ed061</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b5285e8530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 05:11:52</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>8c99278d7942301014586f95c4e43e60</update_guid>
+        <update_guid_history>8c99278d7942301014586f95c4e43e60:1501542480</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 05:37:39</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view">sysrule_view</sys_db_object>
+        <sys_id>1bd51625d55140e0843313d40cb952c9</sys_id>
+        <sys_metadata>83982f8d07423010fff7f7fc7c1ed09b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mechanic Assign Rule</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_parent display_value="Vehicle Service">60159f1107753010fff7f7fc7c1ed080</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_scope_delete display_value="">58e267952e1840e091f0c269b97a9344</sys_scope_delete>
+        <sys_update_name>sysrule_view_83982f8d07423010fff7f7fc7c1ed09b</sys_update_name>
+        <sys_update_version display_value="sysrule_view_83982f8d07423010fff7f7fc7c1ed09b">4499278d07423010fff7f7fc7c1ed061</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 05:37:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

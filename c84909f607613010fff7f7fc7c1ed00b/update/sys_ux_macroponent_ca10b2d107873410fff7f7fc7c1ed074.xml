@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "service_dataset",
+  "elementLabel" : "Service Dataset",
+  "propertyValues" : {
+    "title" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Services",
+        "comment" : ""
+      }
+    },
+    "titleHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "titleStyleVariant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "header-primary"
+    },
+    "data" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "services_evam", "compositeDataViews" ]
+      }
+    },
+    "toggleView" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "defaultView" : {
+      "type" : "JSON_LITERAL",
+      "value" : "grid"
+    },
+    "cardHeight" : {
+      "type" : "JSON_LITERAL",
+      "value" : "sm"
+    },
+    "maxCardsPerRow" : {
+      "type" : "JSON_LITERAL",
+      "value" : "3"
+    },
+    "minCardWidth" : {
+      "type" : "JSON_LITERAL",
+      "value" : 150
+    },
+    "dataBrokerIsLoading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "emptyMessage" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "No content to display",
+        "comment" : ""
+      }
+    },
+    "hideFilter" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hidePaginationControls" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "daClientActionContract" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "ckuihherggsaaaaccddddiiiiffjmiigrfiix",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "now_data_set.NOW_DATA_SET#PAGINATION_BUTTON_CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "now_data_set.NOW_DATA_SET#PAGINATION_BUTTON_CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "1628372507473010fff7f7fc7c1ed094"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckuihherggsaaaacceeddiiiiffmdydjjggjt",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "dec0b89ec87f44e66126f8cc78e53891",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "padding" : "10px"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "e6af35d9dbb810106b3982c9689619e5",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "services_evam",
+  "elementLabel" : "Service Request Evam",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "evamDefinitionId" : {
+      "type" : "JSON_LITERAL",
+      "value" : "4a6f46a907033010fff7f7fc7c1ed02b"
+    },
+    "pageCursor" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "pageCursor" ]
+      }
+    },
+    "pageSize" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "pageSize" ]
+      }
+    },
+    "pageNumber" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "pageNumber" ]
+      }
+    },
+    "filterPreference" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events>10fd5c4207077010fff7f7fc7c1ed06d</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "x_625304_online_0.SERVICE_EVENT_HANDLER" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "e44867b107437010fff7f7fc7c1ed0cc"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckuihhjjggpcaaaabblddiiiiffcbbjxoddiio",
+    "type" : "CLIENT_SCRIPT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : null,
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "ckuihhjjqjjnaaaabbuddiiiiffffgzksqaak",
+    "type" : "EVENT"
+  } ],
+  "x_625304_online_0.SERVICE_ITEM_CLICKED" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "e44867b107437010fff7f7fc7c1ed0cc"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckuhythjnaaaaeeiiddiiiiffffnswzieeg",
+    "type" : "CLIENT_SCRIPT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : null,
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "ckuhyvjddggaaaaeejjddiiiifftizizahhs",
+    "type" : "EVENT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
+    "styles" : null,
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "flex"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>homeevam</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "No content to display",
+  "comment" : ""
+}, {
+  "message" : "Services",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "pageNumber",
+  "label" : "pageNumber",
+  "fieldType" : "number",
+  "valueType" : "number",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : 1
+  }
+}, {
+  "name" : "pageCursor",
+  "label" : "pageCursor",
+  "fieldType" : "number",
+  "valueType" : "number",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : 0
+  }
+}, {
+  "name" : "pageSize",
+  "label" : "pageSize",
+  "fieldType" : "number",
+  "valueType" : "number",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : 3
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-06 12:42:03</sys_created_on>
+        <sys_id>ca10b2d107873410fff7f7fc7c1ed074</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>homeevam</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_macroponent_ca10b2d107873410fff7f7fc7c1ed074</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-08 10:06:36</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

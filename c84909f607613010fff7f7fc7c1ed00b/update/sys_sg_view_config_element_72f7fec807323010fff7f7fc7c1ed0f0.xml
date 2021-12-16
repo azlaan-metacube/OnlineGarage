@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>city-FieldLabel</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-20 05:48:25</sys_created_on>
+        <sys_id>72f7fec807323010fff7f7fc7c1ed0f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>city-FieldLabel</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_72f7fec807323010fff7f7fc7c1ed0f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-20 05:48:25</sys_updated_on>
+        <view_config display_value="User Acti Req 317216 List Screen View Config">fef7fec807323010fff7f7fc7c1ed0bf</view_config>
+        <view_template_slot display_value="text_04">5b4449fc41e35010f877183fc9b8be74</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

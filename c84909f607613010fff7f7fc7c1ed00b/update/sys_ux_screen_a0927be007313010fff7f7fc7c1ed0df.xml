@@ -3,7 +3,219 @@
         <active>true</active>
         <app_config display_value="Online Garage Config">4ccbc97a07613010fff7f7fc7c1ed034</app_config>
         <description/>
-        <event_mappings>[ ]</event_mappings>
+        <event_mappings>[ {
+  "eventMappingId" : "cktbbkrgeeffaaaaeefddbiiddqfbbtobjl",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_625304_online_0.NAV_ITEM_SELECTED_RELAY_509237e007313010fff7f7fc7c1ed0ce",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_625304_online_0.NAV_ITEM_SELECTED_RELAY_509237e007313010fff7f7fc7c1ed0ce",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "cktbbkrgeeeeaaaaeeeddbiiddzybbderhhhh",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "cktbbihcceegaaaabbkddbiiddccuwqqwoe",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_625304_online_0.MODAL_SELECTED_RELAY_509237e007313010fff7f7fc7c1ed0ce",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_625304_online_0.MODAL_SELECTED_RELAY_509237e007313010fff7f7fc7c1ed0ce",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalId" ]
+            }
+          },
+          "showModal" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "showModal" ]
+            }
+          },
+          "displayOptions" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayOptions" ]
+            }
+          },
+          "bare" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "bare" ]
+            }
+          },
+          "preserveState" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "preserveState" ]
+            }
+          }
+        }
+      },
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"
+    },
+    "operation" : null,
+    "targetId" : "cktbbihcceegaaaabbjddbiiddccjcciyqkc",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "cktbbiiijrxaaaabbccddbiiddxaaeeicoeedd",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_625304_online_0.CANVAS_MODAL#CLOSED_RELAY_509237e007313010fff7f7fc7c1ed0ce",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_625304_online_0.CANVAS_MODAL#CLOSED_RELAY_509237e007313010fff7f7fc7c1ed0ce",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.CANVAS_MODAL#CLOSED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalInstanceId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalInstanceId" ]
+            }
+          }
+        }
+      },
+      "sysId" : "5527ec5cf5ac11c053169844f273481a"
+    },
+    "operation" : null,
+    "targetId" : "cktbbiiijrxaaaabbbbddbiiddsukrzzddj",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "cktbbiiiiggqaaaaaayddbiiddlcmabbyobb",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_625304_online_0.CANVAS_MODAL#OPENED_RELAY_509237e007313010fff7f7fc7c1ed0ce",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_625304_online_0.CANVAS_MODAL#OPENED_RELAY_509237e007313010fff7f7fc7c1ed0ce",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.CANVAS_MODAL#OPENED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalInstanceId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalInstanceId" ]
+            }
+          }
+        }
+      },
+      "sysId" : "cb20fe111bfbe34acdb06b39d3da6462"
+    },
+    "operation" : null,
+    "targetId" : "cktbbiiiiggpaaaaaaxddbiiddpakeqseeu",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
         <macroponent display_value="Create Service">509237e007313010fff7f7fc7c1ed0ce</macroponent>
         <macroponent_config>{
   "timestamp" : "",
@@ -26,7 +238,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a0927be007313010fff7f7fc7c1ed0df</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Create Service default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
@@ -34,7 +246,7 @@
         <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
         <sys_update_name>sys_ux_screen_a0927be007313010fff7f7fc7c1ed0df</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-31 07:39:08</sys_updated_on>
+        <sys_updated_on>2021-09-01 14:08:30</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=a0927be007313010fff7f7fc7c1ed0df"/>
 </record_update>

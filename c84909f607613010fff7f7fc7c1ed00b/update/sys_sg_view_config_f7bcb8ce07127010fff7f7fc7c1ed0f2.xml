@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Self Reg User Profile 317216 List Screen View Config</name>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 05:26:27</sys_created_on>
+        <sys_id>f7bcb8ce07127010fff7f7fc7c1ed0f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Reg User Profile 317216 List Screen View Config</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_sg_view_config_f7bcb8ce07127010fff7f7fc7c1ed0f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 05:26:27</sys_updated_on>
+        <table>u_self_reg_user_profile_317216</table>
+        <template display_value="Applet 01">6bb0be5c41a71010f877183fc9b8be0c</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=f7bcb8ce07127010fff7f7fc7c1ed0f2"/>
+</record_update>

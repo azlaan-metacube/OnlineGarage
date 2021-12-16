@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Add Service">8789040207c37010fff7f7fc7c1ed0b3</macroponent>
+        <name>Service Item Click</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+
+    var previousState = api.state.selected_services;
+    previousState.push(event.payload.sys_id);
+    api.setState("selected_services", previousState);
+
+var currentdate = new Date(); 
+var datetime = "Last Clicked: " + currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() + " @ "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
+
+    console.log(previousState);
+    //console.log(JSON.stringify(api));
+    api.setState('buttonText',datetime);
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-08 09:31:24</sys_created_on>
+        <sys_id>78a754ca07c37010fff7f7fc7c1ed0dc</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>Service Item Click</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_client_script_78a754ca07c37010fff7f7fc7c1ed0dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-14 07:04:26</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

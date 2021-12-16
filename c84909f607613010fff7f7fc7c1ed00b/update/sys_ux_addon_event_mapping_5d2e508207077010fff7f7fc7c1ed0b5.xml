@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Service Item Clicked</name>
+        <parent_macroponent display_value="homeevam">ca10b2d107873410fff7f7fc7c1ed074</parent_macroponent>
+        <source_da display_value="vehicle_navigation">1a329a2d07033010fff7f7fc7c1ed046</source_da>
+        <source_element_id>service_dataset</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-08 09:59:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d2e508207077010fff7f7fc7c1ed0b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Item Clicked</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_5d2e508207077010fff7f7fc7c1ed0b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-08 09:59:50</sys_updated_on>
+        <target_event display_value="Service Event Handler">10fd5c4207077010fff7f7fc7c1ed06d</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "sysId": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "sysId"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

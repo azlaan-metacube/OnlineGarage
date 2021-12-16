@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>customer,number,assigned_mechanic,status,mechanic_notes,description,vehicle_no,vehicle_image</field_list>
+        <name>Self Service Config</name>
+        <order>100</order>
+        <predicate_bundle display_value="Self Service Config">6b9056e907033010fff7f7fc7c1ed08f</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-07 05:06:00</sys_created_on>
+        <sys_id>cc1192e907033010fff7f7fc7c1ed0ab</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Self Service Config</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_cc1192e907033010fff7f7fc7c1ed0ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-07 06:50:49</sys_updated_on>
+        <table>x_625304_online_0_vehicle_service</table>
+        <ux_template display_value="Self Sevice Template">3461dee907033010fff7f7fc7c1ed08d</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Mobile Online Garage Invoice">a3bcb8ce07127010fff7f7fc7c1ed074</data_item>
+        <interleaved_field/>
+        <name>Invoice Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 05:26:26</sys_created_on>
+        <sys_id>77bcb8ce07127010fff7f7fc7c1ed0da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Invoice Item Stream</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_sg_item_stream_77bcb8ce07127010fff7f7fc7c1ed0da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 05:26:26</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

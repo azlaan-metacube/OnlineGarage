@@ -665,7 +665,7 @@
     },
     "hideRowSelector" : {
       "type" : "JSON_LITERAL",
-      "value" : false
+      "value" : true
     },
     "hideColumnGrouping" : {
       "type" : "JSON_LITERAL",
@@ -697,7 +697,7 @@
     },
     "wordWrap" : {
       "type" : "JSON_LITERAL",
-      "value" : false
+      "value" : true
     },
     "maxCharLimit" : {
       "type" : "JSON_LITERAL",
@@ -867,52 +867,6 @@
   },
   "isNonDestructive" : false,
   "styles" : { }
-}, {
-  "elementId" : "avatar_1",
-  "elementLabel" : "Avatar 1",
-  "propertyValues" : {
-    "size" : {
-      "type" : "JSON_LITERAL",
-      "value" : "md"
-    },
-    "userName" : {
-      "type" : "JSON_LITERAL",
-      "value" : "John Doe"
-    },
-    "presence" : {
-      "type" : "JSON_LITERAL",
-      "value" : "available"
-    },
-    "showPresencePattern" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "imageSrc" : {
-      "type" : "JSON_LITERAL",
-      "value" : null
-    },
-    "ariaHidden" : {
-      "type" : "JSON_LITERAL",
-      "value" : "true"
-    },
-    "hideTooltip" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    }
-  },
-  "eventMappings" : [ ],
-  "slot" : "Main",
-  "definition" : {
-    "id" : "211969ddfcc5e7050fcfa6cc019e9c8f",
-    "type" : "MACROPONENT"
-  },
-  "overrides" : null,
-  "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : ""
-  },
-  "isNonDestructive" : false,
-  "styles" : { }
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
@@ -994,13 +948,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-13 11:58:28</sys_created_on>
         <sys_id>1540ac4407067010fff7f7fc7c1ed0a9</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>home</sys_name>
         <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
         <sys_update_name>sys_ux_macroponent_1540ac4407067010fff7f7fc7c1ed0a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-26 06:21:15</sys_updated_on>
+        <sys_updated_on>2021-12-08 07:55:59</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

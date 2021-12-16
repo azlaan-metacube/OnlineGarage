@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Service Request Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Service Request Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">e56db0c76d2220100acb70b3534330b7</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-28 07:38:14</sys_created_on>
+        <sys_id>fc4b817a07613010fff7f7fc7c1ed0e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Request Task</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_wizard_answer_fc4b817a07613010fff7f7fc7c1ed0e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-28 07:38:14</sys_updated_on>
+        <table/>
+        <target_url>x_625304_online_0_service_request_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</application>
+        <file_path/>
+        <instance_id>47ea7e8fdb302f008264f70fbf961991</instance_id>
+        <instance_name>dev71723</instance_name>
+        <name>sys_wizard_answer_fc4b817a07613010fff7f7fc7c1ed0e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Service Request Task</answer><button_label/><dependent_value/><element/><name>Service Request Task</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">e56db0c76d2220100acb70b3534330b7</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-28 07:38:14</sys_created_on><sys_id>fc4b817a07613010fff7f7fc7c1ed0e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Request Task</sys_name><sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package><sys_policy/><sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope><sys_update_name>sys_wizard_answer_fc4b817a07613010fff7f7fc7c1ed0e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-28 07:38:14</sys_updated_on><table/><target_url>x_625304_online_0_service_request_task.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1622715555</payload_hash>
+        <record_name>Service Request Task</record_name>
+        <reverted_from/>
+        <source>dc4909f607613010fff7f7fc7c1ed00d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-28 07:38:14</sys_created_on>
+        <sys_id>054b817a07613010fff7f7fc7c1ed0ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aec0cb74b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-28 07:38:14</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>4d4b817ab66130103aeabd56caf1f5e9</update_guid>
+        <update_guid_history>4d4b817ab66130103aeabd56caf1f5e9:1622715555</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 05:02:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>27565c693aa747f6ad6981d5a499aad9</sys_id>
+        <sys_metadata>fc4b817a07613010fff7f7fc7c1ed0e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Request Task</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_parent display_value="Task">e56db0c76d2220100acb70b3534330b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_scope_delete display_value="">58e267952e1840e091f0c269b97a9344</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_fc4b817a07613010fff7f7fc7c1ed0e7</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_fc4b817a07613010fff7f7fc7c1ed0e7">054b817a07613010fff7f7fc7c1ed0ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 05:02:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -32,15 +32,15 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="">glide_list</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
+        <max_length>4000</max_length>
         <name>x_625304_online_0_invoice</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_625304_online_0_vehicle_service">x_625304_online_0_vehicle_service</reference>
+        <reference display_value="" name="x_625304_online_0_services">x_625304_online_0_services</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-18 11:10:57</sys_created_on>
         <sys_id>e95582e907063010fff7f7fc7c1ed062</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Service</sys_name>
         <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
         <sys_update_name>sys_dictionary_x_625304_online_0_invoice_service</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-18 11:10:57</sys_updated_on>
+        <sys_updated_on>2021-11-11 05:22:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

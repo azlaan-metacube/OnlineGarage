@@ -4,97 +4,69 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-08-31 08:15:29</sys_created_on>
-            <sys_id>a6d9dc3d07923010fff7f7fc7c1ed06e</sys_id>
+            <sys_created_on>2021-10-08 09:53:11</sys_created_on>
+            <sys_id>40ac9c0207077010fff7f7fc7c1ed0e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_625304_online_0_vehicle_service" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">88f6936507717010fff7f7fc7c1ed095</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-08-31 08:15:29</sys_updated_on>
+            <sys_updated_on>2021-10-08 09:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-08 09:53:11</sys_created_on>
+            <sys_id>c8ac9c0207077010fff7f7fc7c1ed0e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_625304_online_0_vehicle_service" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">88f6936507717010fff7f7fc7c1ed095</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:53:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-08-31 08:15:29</sys_created_on>
-            <sys_id>22d9dc3d07923010fff7f7fc7c1ed06f</sys_id>
+            <sys_created_on>2021-10-08 09:53:11</sys_created_on>
+            <sys_id>40ac9c0207077010fff7f7fc7c1ed0e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_625304_online_0_vehicle_service" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">88f6936507717010fff7f7fc7c1ed095</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-08-31 08:15:29</sys_updated_on>
+            <sys_updated_on>2021-10-08 09:53:11</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>vehicle_no</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-08-31 08:15:30</sys_created_on>
-            <sys_id>a6d9dc3d07923010fff7f7fc7c1ed06f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_625304_online_0_vehicle_service" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">88f6936507717010fff7f7fc7c1ed095</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-08-31 08:15:30</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-08-31 08:15:30</sys_created_on>
-            <sys_id>2ed9dc3d07923010fff7f7fc7c1ed06f</sys_id>
+            <sys_created_on>2021-10-08 09:53:11</sys_created_on>
+            <sys_id>c4ac9c0207077010fff7f7fc7c1ed0e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_625304_online_0_vehicle_service" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">88f6936507717010fff7f7fc7c1ed095</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-08-31 08:15:30</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-08-31 08:15:30</sys_created_on>
-            <sys_id>a2d9dc3d07923010fff7f7fc7c1ed070</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_625304_online_0_vehicle_service" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">88f6936507717010fff7f7fc7c1ed095</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-08-31 08:15:30</sys_updated_on>
+            <sys_updated_on>2021-10-08 09:53:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>services</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-08-31 08:15:30</sys_created_on>
-            <sys_id>2ad9dc3d07923010fff7f7fc7c1ed070</sys_id>
+            <sys_created_on>2021-10-08 09:53:11</sys_created_on>
+            <sys_id>4cac9c0207077010fff7f7fc7c1ed0e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_625304_online_0_vehicle_service" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">88f6936507717010fff7f7fc7c1ed095</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-08-31 08:15:30</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>customer</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-08-31 08:15:30</sys_created_on>
-            <sys_id>aed9dc3d07923010fff7f7fc7c1ed070</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_625304_online_0_vehicle_service" sys_domain="global" view="1cb532579f2013001e0abde8132e70e4">88f6936507717010fff7f7fc7c1ed095</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-08-31 08:15:30</sys_updated_on>
+            <sys_updated_on>2021-10-08 09:53:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

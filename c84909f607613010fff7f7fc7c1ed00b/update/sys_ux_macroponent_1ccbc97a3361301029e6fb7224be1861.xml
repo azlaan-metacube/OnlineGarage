@@ -72,7 +72,7 @@
         }
       },
       "eventMappings" : [ {
-        "eventMappingId" : "cksfxeeeencaaaafnddbiieejjxeeisec",
+        "eventMappingId" : "cktbbccwttaaaaaahhccddbiiddbbuddpbbtzx",
         "isConfiguration" : false,
         "offRowStorageId" : null,
         "sourceEventApiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#PRIMARY_CLICKED",
@@ -91,7 +91,7 @@
           "declarativeAction" : null,
           "event" : null,
           "operation" : null,
-          "targetId" : "cksfxeeeencaaaafoddbiieeqhljjrtecc",
+          "targetId" : "cktbbccwttaaaaaahhddddbiiddkyeddmejy",
           "type" : "CLIENT_SCRIPT"
         } ]
       } ],
@@ -149,7 +149,7 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events/>
+        <dispatched_events>8641010607527010fff7f7fc7c1ed075</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -257,13 +257,13 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-07-28 07:40:24</sys_created_on>
         <sys_id>1ccbc97a3361301029e6fb7224be1861</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Order success</sys_name>
         <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
         <sys_update_name>sys_ux_macroponent_1ccbc97a3361301029e6fb7224be1861</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-17 10:25:28</sys_updated_on>
+        <sys_updated_on>2021-09-01 05:48:53</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

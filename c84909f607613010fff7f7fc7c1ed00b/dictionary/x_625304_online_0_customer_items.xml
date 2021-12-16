@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Customer Items" max_length="40" name="x_625304_online_0_customer_items" sizeclass="7" type="collection">
+        <element label="CItem" max_length="32" name="citem" reference="x_625304_online_0_services" type="reference"/>
+        <element label="Customer" max_length="32" name="customer" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Price" max_length="20" name="price" type="currency"/>
+        <element label="Vehicle Service" max_length="32" name="vehicle_service" reference="x_625304_online_0_vehicle_service" type="reference"/>
+        <index name="index">
+            <element name="citem"/>
+        </index>
+        <index name="index2">
+            <element name="vehicle_service"/>
+        </index>
+        <index name="index3">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>

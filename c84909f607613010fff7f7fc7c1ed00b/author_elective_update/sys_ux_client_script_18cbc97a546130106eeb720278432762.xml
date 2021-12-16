@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Order success">1ccbc97a3361301029e6fb7224be1861</macroponent>
+        <name>View request redirection</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    let {
+        table,
+        sysId
+    } = api.context.props;
+
+    const route = "record_request";
+
+    if (table != "sc_request") {
+        table = table == "incident" ? "incident" : "task";
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table,
+                sysId
+            }
+        });
+    } else {
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table : "sc_req_item",
+                sysId : api.data.request_item_data_broker_1.output.sysId
+            }
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-07-28 07:40:26</sys_created_on>
+        <sys_id>18cbc97a546130106eeb720278432762</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View request redirection</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_client_script_18cbc97a546130106eeb720278432762</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-07-28 07:40:26</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</application>
+        <file_path/>
+        <instance_id>47ea7e8fdb302f008264f70fbf961991</instance_id>
+        <instance_name>dev71723</instance_name>
+        <name>sys_ux_client_script_18cbc97a546130106eeb720278432762</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Order success"&gt;1ccbc97a3361301029e6fb7224be1861&lt;/macroponent&gt;&lt;name&gt;View request redirection&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    let {
+        table,
+        sysId
+    } = api.context.props;
+
+    const route = "record_request";
+
+    if (table != "sc_request") {
+        table = table == "incident" ? "incident" : "task";
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table,
+                sysId
+            }
+        });
+    } else {
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table : "sc_req_item",
+                sysId : api.data.request_item_data_broker_1.output.sysId
+            }
+        });
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-28 07:40:26&lt;/sys_created_on&gt;&lt;sys_id&gt;18cbc97a546130106eeb720278432762&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;View request redirection&lt;/sys_name&gt;&lt;sys_package display_value="Online Garage" source="x_625304_online_0"&gt;c84909f607613010fff7f7fc7c1ed00b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online Garage"&gt;c84909f607613010fff7f7fc7c1ed00b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_18cbc97a546130106eeb720278432762&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-28 07:40:26&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1835154488</payload_hash>
+        <record_name>View request redirection</record_name>
+        <reverted_from/>
+        <source>3aafa50007213010fff7f7fc7c1ed0b6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-07-19 21:13:58</sys_created_on>
+        <sys_id>d0807c9507463010fff7f7fc7c1ed07a</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17ac09e4df00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Client Script</type>
+        <update_guid>90807c9583463010a1a8d2d0de89d27a</update_guid>
+        <update_guid_history>90807c9583463010a1a8d2d0de89d27a:-1835154488</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 10:21:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>42d451a14085419e94a9c8a9b1636324</sys_id>
+        <sys_metadata>18cbc97a546130106eeb720278432762</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View request redirection</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_scope_delete display_value="">58e267952e1840e091f0c269b97a9344</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_18cbc97a546130106eeb720278432762</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_18cbc97a546130106eeb720278432762">d0807c9507463010fff7f7fc7c1ed07a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 10:21:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

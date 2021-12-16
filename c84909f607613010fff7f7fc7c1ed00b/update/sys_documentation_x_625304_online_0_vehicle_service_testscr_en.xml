@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="testscr" label="TestScr" language="en" table="x_625304_online_0_vehicle_service">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>testscr</element>
+            <help/>
+            <hint/>
+            <label>TestScr</label>
+            <language>en</language>
+            <name>x_625304_online_0_vehicle_service</name>
+            <plural>TestScrs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-08 11:49:30</sys_created_on>
+            <sys_id>3337fc4607477010fff7f7fc7c1ed081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>TestScr</sys_name>
+            <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+            <sys_update_name>sys_documentation_x_625304_online_0_vehicle_service_testscr_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-08 11:49:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

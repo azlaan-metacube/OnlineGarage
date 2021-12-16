@@ -3,7 +3,90 @@
         <active>true</active>
         <app_config display_value="Online Garage Config">4ccbc97a07613010fff7f7fc7c1ed034</app_config>
         <description/>
-        <event_mappings>[ ]</event_mappings>
+        <event_mappings>[ {
+  "eventMappingId" : "ckwggaaaamjeaaaabbsddiiiiffbeewtlkddn",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_625304_online_0.NAV_ITEM_SELECTED_RELAY_f2bbacf70761b010fff7f7fc7c1ed021",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_625304_online_0.NAV_ITEM_SELECTED_RELAY_f2bbacf70761b010fff7f7fc7c1ed021",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckwggaaaamjdaaaabbrddiiiiffddzzzyvxy",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
         <macroponent display_value="Service Info">f2bbacf70761b010fff7f7fc7c1ed021</macroponent>
         <macroponent_config>{
   "sysId" : "",
@@ -14,11 +97,7 @@
   "scrollable" : "y",
   "headerLevel" : "1",
   "interceptNotifications" : false,
-  "propagateNotifications" : false,
-  "approvalId" : "",
-  "newId" : "",
-  "searchContextConfigId" : "",
-  "searchTerm" : ""
+  "propagateNotifications" : false
 }</macroponent_config>
         <name>Service Info default</name>
         <order>0</order>
@@ -32,7 +111,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b6bbacf70761b010fff7f7fc7c1ed024</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Service Info default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
@@ -40,7 +119,7 @@
         <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
         <sys_update_name>sys_ux_screen_b6bbacf70761b010fff7f7fc7c1ed024</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-16 09:45:52</sys_updated_on>
+        <sys_updated_on>2021-11-19 06:25:24</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=b6bbacf70761b010fff7f7fc7c1ed024"/>
 </record_update>

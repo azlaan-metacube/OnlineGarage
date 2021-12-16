@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Invoice" max_length="40" name="x_625304_online_0_invoice" sizeclass="0" type="collection">
+        <element label="Price" max_length="20" name="price" type="price"/>
+        <element label="Service" max_length="4000" name="service" reference="x_625304_online_0_services" type="glide_list"/>
+        <index name="index">
+            <element name="service"/>
+        </index>
+    </element>
+</database>

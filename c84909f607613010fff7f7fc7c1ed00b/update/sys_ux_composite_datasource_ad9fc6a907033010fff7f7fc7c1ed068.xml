@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource">
+    <sys_ux_composite_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <encoded_query_script/>
+        <name>Self Service Ticker</name>
+        <sort_by>sys_created_on</sort_by>
+        <sys_class_name>sys_ux_composite_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-07 05:02:06</sys_created_on>
+        <sys_id>ad9fc6a907033010fff7f7fc7c1ed068</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Self Service Ticker</sys_name>
+        <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_ad9fc6a907033010fff7f7fc7c1ed068</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-07 05:56:45</sys_updated_on>
+        <table>x_625304_online_0_vehicle_service</table>
+    </sys_ux_composite_datasource>
+</record_update>

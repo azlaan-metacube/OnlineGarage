@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="payment_status" table="x_625304_online_0_vehicle_service" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>payment_status</element>
+            <name>x_625304_online_0_vehicle_service</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-19 09:46:21</sys_created_on>
+            <sys_id>61dda86307f33010fff7f7fc7c1ed0dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>payment_status</sys_name>
+            <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
+            <sys_update_name>sys_choice_x_625304_online_0_vehicle_service_payment_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-19 09:46:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payment Fail</label>
+            <language>en</language>
+            <name>x_625304_online_0_vehicle_service</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-20 06:50:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>512f45b707733010fff7f7fc7c1ed0e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-20 06:50:48</sys_updated_on>
+            <value>payment_fail</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>x_625304_online_0_vehicle_service</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-19 09:46:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9dd20e307f33010fff7f7fc7c1ed081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-19 09:46:23</sys_updated_on>
+            <value>pending</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Done</label>
+            <language>en</language>
+            <name>x_625304_online_0_vehicle_service</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-19 09:46:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75dd282307f33010fff7f7fc7c1ed0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-19 09:46:23</sys_updated_on>
+            <value>done</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

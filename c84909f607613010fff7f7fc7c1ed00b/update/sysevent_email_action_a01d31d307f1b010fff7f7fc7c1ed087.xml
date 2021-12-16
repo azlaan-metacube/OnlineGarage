@@ -14,7 +14,8 @@
         <default_interval/>
         <description/>
         <digest_from/>
-        <digest_html/>
+        <digest_html><![CDATA[<p>Services: ${services}</p>
+<p>&nbsp;</p>]]></digest_html>
         <digest_reply_to/>
         <digest_separator_html><![CDATA[<p>&nbsp;</p>
 <hr />
@@ -64,7 +65,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a01d31d307f1b010fff7f7fc7c1ed087</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Job Complete Mail</sys_name>
         <sys_overrides/>
         <sys_package display_value="Online Garage" source="x_625304_online_0">c84909f607613010fff7f7fc7c1ed00b</sys_package>
@@ -72,7 +73,7 @@
         <sys_scope display_value="Online Garage">c84909f607613010fff7f7fc7c1ed00b</sys_scope>
         <sys_update_name>sysevent_email_action_a01d31d307f1b010fff7f7fc7c1ed087</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-27 12:35:51</sys_updated_on>
+        <sys_updated_on>2021-11-10 07:01:55</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

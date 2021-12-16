@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Services" max_length="40" name="x_625304_online_0_services" sizeclass="5" type="collection">
+        <element label="Cost" max_length="20" name="cost" type="currency"/>
+        <element label="Description" max_length="400" name="description" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#9;return current.service_name+' - Price : '+current.cost;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Item" max_length="256" name="item" read_only="true" type="string" virtual="true"/>
+        <element label="NamePrice" max_length="80" name="nameprice" read_only="true" type="string" virtual="true"/>
+        <element label="Service Name" max_length="40" name="service_name" type="string"/>
+    </element>
+</database>
